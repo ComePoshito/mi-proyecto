@@ -5,9 +5,10 @@ import Inicio from "./paginas/inicio";
 import Servicio from "./paginas/servicio";
 import Contacto from "./paginas/contacto";
 import "./App.css";
+
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/mi-proyecto">
       <Nav />
       <main>
         <Routes>
@@ -20,4 +21,5 @@ function App() {
     </BrowserRouter>
   );
 }
+
 export default App;
